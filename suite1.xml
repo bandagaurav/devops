@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test-AutomationA" parallel="methods" thread-count="10" verbose="1">
+   
+    
+    
+    <test name="SuiteTestA" parallel="methods" thread-count="10" verbose="1">
+        <classes>
+            <class name="parellel.A">
+                <!-- <methods>
+                    <include name="methodone"/>
+                </methods>
+                <methods>
+                    <include name="methodtwo"/>
+                </methods>
+                <methods>
+                    <include name="methodthree"/>
+                </methods>
+                <methods>
+                    <include name="methodfour"/>
+                </methods>
+                <methods>
+                    <include name="methodfive"/>
+                </methods> -->
+            </class>
+           
+        </classes>
+    </test>
+    
+     
+    
+    
+    
+</suite>

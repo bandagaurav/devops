@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test-Automation" duration-ms="67583" started-at="2018-10-25T07:49:32Z" finished-at="2018-10-25T07:50:40Z">
+    <groups>
+    </groups>
+    <test name="Suite Test2" duration-ms="22819" started-at="2018-10-25T07:49:32Z" finished-at="2018-10-25T07:49:55Z">
+      <class name="parellel.B">
+        <test-method status="PASS" signature="main2()[pri:0, instance:parellel.B@6bf256fa]" name="main2" duration-ms="22806" started-at="2018-10-25T13:19:32Z" finished-at="2018-10-25T13:19:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main2 -->
+      </class> <!-- parellel.B -->
+    </test> <!-- Suite Test2 -->
+    <test name="Suite Test3" duration-ms="52837" started-at="2018-10-25T07:49:32Z" finished-at="2018-10-25T07:50:25Z">
+      <class name="parellel.C">
+        <test-method status="PASS" signature="method1()[pri:0, instance:parellel.C@35f983a6]" name="method1" duration-ms="7353" started-at="2018-10-25T13:19:32Z" finished-at="2018-10-25T13:19:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:parellel.C@35f983a6]" name="method2" duration-ms="31216" started-at="2018-10-25T13:19:40Z" finished-at="2018-10-25T13:20:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method3()[pri:0, instance:parellel.C@35f983a6]" name="method3" duration-ms="14254" started-at="2018-10-25T13:20:11Z" finished-at="2018-10-25T13:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+      </class> <!-- parellel.C -->
+    </test> <!-- Suite Test3 -->
+    <test name="Suite Test1" duration-ms="67583" started-at="2018-10-25T07:49:32Z" finished-at="2018-10-25T07:50:40Z">
+      <class name="parellel.A">
+        <test-method status="PASS" signature="methodfive()[pri:0, instance:parellel.A@6e8dacdf]" name="methodfive" duration-ms="14428" started-at="2018-10-25T13:19:32Z" finished-at="2018-10-25T13:19:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodfive -->
+        <test-method status="PASS" signature="methodfour()[pri:0, instance:parellel.A@6e8dacdf]" name="methodfour" duration-ms="15603" started-at="2018-10-25T13:19:47Z" finished-at="2018-10-25T13:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodfour -->
+        <test-method status="PASS" signature="methodone()[pri:0, instance:parellel.A@6e8dacdf]" name="methodone" duration-ms="15519" started-at="2018-10-25T13:20:02Z" finished-at="2018-10-25T13:20:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodone -->
+        <test-method status="PASS" signature="methodthree()[pri:0, instance:parellel.A@6e8dacdf]" name="methodthree" duration-ms="15106" started-at="2018-10-25T13:20:18Z" finished-at="2018-10-25T13:20:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodthree -->
+        <test-method status="PASS" signature="methodtwo()[pri:0, instance:parellel.A@6e8dacdf]" name="methodtwo" duration-ms="6914" started-at="2018-10-25T13:20:33Z" finished-at="2018-10-25T13:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodtwo -->
+      </class> <!-- parellel.A -->
+    </test> <!-- Suite Test1 -->
+  </suite> <!-- Test-Automation -->
+</testng-results>

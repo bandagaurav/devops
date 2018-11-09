@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test-Automation" duration-ms="33850" started-at="2018-10-25T08:11:46Z" finished-at="2018-10-25T08:12:20Z">
+    <groups>
+    </groups>
+    <test name="Suite Test1" duration-ms="33850" started-at="2018-10-25T08:11:46Z" finished-at="2018-10-25T08:12:20Z">
+      <class name="parellel.A">
+        <test-method status="PASS" signature="methodthree()[pri:0, instance:parellel.A@1bce4f0a]" name="methodthree" duration-ms="6742" started-at="2018-10-25T13:41:46Z" finished-at="2018-10-25T13:41:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodthree -->
+        <test-method status="PASS" signature="methodtwo()[pri:0, instance:parellel.A@1bce4f0a]" name="methodtwo" duration-ms="13970" started-at="2018-10-25T13:41:46Z" finished-at="2018-10-25T13:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodtwo -->
+        <test-method status="PASS" signature="methodfive()[pri:0, instance:parellel.A@1bce4f0a]" name="methodfive" duration-ms="20307" started-at="2018-10-25T13:41:46Z" finished-at="2018-10-25T13:42:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodfive -->
+        <test-method status="PASS" signature="methodfour()[pri:0, instance:parellel.A@1bce4f0a]" name="methodfour" duration-ms="27985" started-at="2018-10-25T13:41:46Z" finished-at="2018-10-25T13:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodfour -->
+        <test-method status="PASS" signature="methodone()[pri:0, instance:parellel.A@1bce4f0a]" name="methodone" duration-ms="33834" started-at="2018-10-25T13:41:46Z" finished-at="2018-10-25T13:42:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodone -->
+      </class> <!-- parellel.A -->
+    </test> <!-- Suite Test1 -->
+  </suite> <!-- Test-Automation -->
+</testng-results>

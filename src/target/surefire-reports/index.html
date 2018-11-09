@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test-Automation">
+              <span class="suite-name border-passed">Test-Automation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test-Automation">
+                    <span>D:\Projects\ReRunTests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test-Automation">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test-Automation">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test-Automation">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test-Automation">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test-Automation">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test-Automation">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test-Automation" class="hide-methods passed suite-Test-Automation"> (hide)</a> <!-- hide-methods passed suite-Test-Automation -->
+                      <a href="#" panel-name="suite-Test-Automation" class="show-methods passed suite-Test-Automation"> (show)</a> <!-- show-methods passed suite-Test-Automation -->
+                    </span>
+                    <div class="method-list-content passed suite-Test-Automation">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-Automation" title="parellel.B" hash-for-method="main2">main2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-Automation" title="parellel.C" hash-for-method="method1">method1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-Automation" title="parellel.C" hash-for-method="method2">method2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-Automation" title="parellel.C" hash-for-method="method3">method3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-Automation" title="parellel.A" hash-for-method="methodfive">methodfive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-Automation" title="parellel.A" hash-for-method="methodfour">methodfour</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-Automation" title="parellel.A" hash-for-method="methodone">methodone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-Automation" title="parellel.A" hash-for-method="methodthree">methodthree</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-Automation" title="parellel.A" hash-for-method="methodtwo">methodtwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test-Automation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test-Automation" class="panel Test-Automation">
+          <div class="suite-Test-Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">parellel.C</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1">
+                  </a> <!-- method1 -->
+                  <span class="method-name">method1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method2">
+                  </a> <!-- method2 -->
+                  <span class="method-name">method2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method3">
+                  </a> <!-- method3 -->
+                  <span class="method-name">method3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-Automation-class-passed -->
+          <div class="suite-Test-Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">parellel.B</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="main2">
+                  </a> <!-- main2 -->
+                  <span class="method-name">main2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-Automation-class-passed -->
+          <div class="suite-Test-Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">parellel.A</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="methodfive">
+                  </a> <!-- methodfive -->
+                  <span class="method-name">methodfive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="methodfour">
+                  </a> <!-- methodfour -->
+                  <span class="method-name">methodfour</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="methodone">
+                  </a> <!-- methodone -->
+                  <span class="method-name">methodone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="methodthree">
+                  </a> <!-- methodthree -->
+                  <span class="method-name">methodthree</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="methodtwo">
+                  </a> <!-- methodtwo -->
+                  <span class="method-name">methodtwo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-Automation-class-passed -->
+        </div> <!-- panel Test-Automation -->
+        <div panel-name="test-xml-Test-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Projects\ReRunTests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Test-Automation&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Suite Test1&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;parellel.A&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;main3&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- parellel.A --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Suite Test1 --&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Suite Test3&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;parellel.C&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;main1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- parellel.C --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Suite Test3 --&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Suite Test2&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;parellel.B&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;main2&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- parellel.B --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Suite Test2 --&gt;
+&lt;/suite&gt; &lt;!-- Test-Automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test-Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Suite Test1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Suite Test3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Suite Test2 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test-Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test-Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test-Automation');
+function tableData_Test-Automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'method2')
+data.setCell(0, 2, 'parellel.C')
+data.setCell(0, 3, 31216);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'main2')
+data.setCell(1, 2, 'parellel.B')
+data.setCell(1, 3, 22806);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'methodfour')
+data.setCell(2, 2, 'parellel.A')
+data.setCell(2, 3, 15603);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'methodone')
+data.setCell(3, 2, 'parellel.A')
+data.setCell(3, 3, 15519);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'methodthree')
+data.setCell(4, 2, 'parellel.A')
+data.setCell(4, 3, 15106);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'methodfive')
+data.setCell(5, 2, 'parellel.A')
+data.setCell(5, 3, 14428);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'method3')
+data.setCell(6, 2, 'parellel.C')
+data.setCell(6, 3, 14254);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'method1')
+data.setCell(7, 2, 'parellel.C')
+data.setCell(7, 3, 7353);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'methodtwo')
+data.setCell(8, 2, 'parellel.A')
+data.setCell(8, 3, 6914);
+window.suiteTableData['Test-Automation']= { tableData: data, tableDiv: 'times-div-Test-Automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Test-Automation">
+              </div> <!-- times-div-Test-Automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test-Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">parellel.B</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">main2</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">parellel.A</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">methodfive</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">parellel.C</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">method1</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">method2</span>
+                <span class="method-start">7354 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">parellel.A</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">methodfour</span>
+                <span class="method-start">14428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">methodone</span>
+                <span class="method-start">30031 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">parellel.C</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">method3</span>
+                <span class="method-start">38571 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">parellel.A</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">methodthree</span>
+                <span class="method-start">45550 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">methodtwo</span>
+                <span class="method-start">60657 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
